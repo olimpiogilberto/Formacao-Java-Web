@@ -1,0 +1,248 @@
+/* LINK PADRÃO */
+a:link {
+	font-weight: normal;
+	font-size: 11px;
+	color: #0039ba;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+
+a:visited {
+	font-weight: normal;
+	font-size: 11px;
+	color: #0039ba;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: normal;
+	font-size: 11px;
+	color: #ff6d00;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: underline;
+}
+
+a:active {
+	font-weight: normal;
+	font-size: 11px;
+	color: #ff6d00;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+
+/* LINK PAGINAÇÃO */
+.linkPaginacao a:link {
+	font-weight: normal;
+	font-size: 11px;
+	color: #414244;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+
+.linkPaginacao a:visited {
+	font-weight: normal;
+	font-size: 11px;
+	color: #414244;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+
+.linkPaginacao a:active {
+	font-weight: normal;
+	font-size: 11px;
+	color: #414244;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+
+.linkPaginacao a:hover {
+	font-weight: normal;
+	font-size: 11px;
+	color: #ff6d00;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: underline;
+}
+
+.paginacao_paginaAtual {
+	font-weight: bold;
+	font-size: 11px;
+	color: #ff6d00;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+
+/* LINK BARRA CINZA */
+.divBarraCinza a:link {
+	font-weight: bold;
+	font-size: 12pt;
+	color: #808080;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none
+}
+
+.divBarraCinza a:visited {
+	font-weight: bold;
+	font-size: 12pt;
+	color: #808080;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none
+}
+
+.divBarraCinza a:active {
+	font-weight: bold;
+	font-size: 12pt;
+	color: #808080;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none
+}
+
+.divBarraCinza a:hover {
+	font-weight: bold;
+	font-size: 12pt;
+	color: #0039ba;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none
+}
+
+.divBarraCinza {
+	font-weight: bold;
+	font-size: 12pt;
+	color: #808080;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none
+}
+
+p {
+	margin-bottom: 10px;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #414244;
+}
+
+p#msgConsulta {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #414244;
+	padding: 4px;
+	margin-bottom: 10px;
+	background-color: #f7f7f7;
+}
+
+h1 {
+	margin: 0px;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF9933;
+}
+
+h2 {
+	margin: 0px;
+	height: 30px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #FF9933;
+}
+
+h3 {
+	margin: 0px;
+	font-family: Arial;
+	font-size: 22px;
+	font-weight: bold;
+	color: #FF9933;
+}
+
+h4 {
+	margin: 0px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #808080;
+}
+
+h5 {
+	margin: 0px;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #314E94;
+}
+
+.labelNormal {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #314E94
+}
+
+.labelBold {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.labelMensagem {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #E97117;
+}
+
+.labelLegenda {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+	color: #7F7D7D;
+}
+
+.valorNormal {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #414244;
+}
+
+.valorBold {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #414244;
+}
+
+.alinhamento_label {
+	color: #314D94;
+	text-align: right;
+}
+
+.alinhamento_label_bold {
+	color: #314D94;
+	text-align: right;
+	font-weight: bold;
+}
+
+.alinhamento_label_superior {
+	color: #314D94;
+	text-align: right;
+	vertical-align: top;
+}
+
+.alinhamento_label_esquerda {
+	color: #314D94;
+}

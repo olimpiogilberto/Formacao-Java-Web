@@ -1,0 +1,65 @@
+input
+{ 
+	font-size		:11px;
+	color			:#414244;
+	font-family		:Arial;
+	vertical-align	:middle;
+}
+
+textarea
+{ 
+	font-size		:11px;
+	color			:#414244;
+	font-family		:Arial;
+}
+
+select
+{ 
+	font-size		:11px;
+	color			:#414244;
+	font-family		:Arial;
+}
+ 
+#botao
+{
+   	border-top		:#eeeeee 3px solid;
+	border-right	:#8b8b8b 3px solid;
+   	border-bottom	:#8b8b8b 3px solid;
+   	border-left		:#eeeeee 3px solid;
+   	font-size		:9px;
+   	font-weight		:600;
+   	font-family		:Arial;
+   	background		:#d1d1d1;
+   	color			:#696969;
+   	vertical-align	:top;
+}
+
+#botao:active
+{
+   	border-top		:#8b8b8b 3px solid;
+	border-right	:#eeeeee 3px solid;
+   	border-bottom	:#eeeeee 3px solid;
+   	border-left		:#8b8b8b 3px solid;
+}
+
+.botao
+{
+   	border-top		:#eeeeee 3px solid;
+	border-right	:#8b8b8b 3px solid;
+   	border-bottom	:#8b8b8b 3px solid;
+   	border-left		:#eeeeee 3px solid;
+   	font-size		:9px;
+   	font-weight		:600;
+   	font-family		:Arial;
+   	background		:#d1d1d1;
+   	color			:#696969;
+   	vertical-align	:top;
+}
+
+.botao:active
+{
+   	border-top		:#8b8b8b 3px solid;
+	border-right	:#eeeeee 3px solid;
+   	border-bottom	:#eeeeee 3px solid;
+   	border-left		:#8b8b8b 3px solid;
+}

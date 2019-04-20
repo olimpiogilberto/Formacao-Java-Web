@@ -1,0 +1,212 @@
+/* GERAL */
+
+td#alinhamentoDireita
+{
+	padding				:2px;
+	text-align			:right;
+}
+
+td#alinhamentoCentralizado
+{
+	padding				:2px;
+	text-align			:center;
+}
+
+/* GRID PADRÃO */
+
+table#gridPadrao
+{
+	width				:610px;
+	font-family			:Arial;
+	font-size			:11px;
+	color				:#414244;
+	margin-bottom		:5px;
+}
+
+table#gridPadraoAba
+{
+	width				:584px;
+	font-family			:Arial;
+	font-size			:11px;
+	color				:#414244;
+	margin-bottom		:5px;
+}
+
+table#gridPadraoComScrollbars
+{
+	font-family			:Arial;
+	font-size			:11px;
+	color				:#414244;
+}
+
+caption
+{
+	padding				:2px;
+	background-color	:#314E94;
+	font-family			:Arial;
+	font-weight			:bold;
+	font-size			:12px;
+	text-align			:left;
+	color				:#FFFFFF;
+}
+
+caption#form
+{
+	padding				:2px;
+	background-color	:#314E94;
+	font-family			:Arial;
+	font-weight			:bold;
+	color				:#FFFFFF;
+}
+
+th
+{
+	padding				:2px;
+	padding-left		:5px;
+	background-color	:#6379AD;
+	font-weight			:bold;
+	text-align			:center;
+	color				:#FFFFFF;
+}
+
+td
+{
+	padding			:2px;
+	padding-left	:5px;
+}
+
+tfoot tr td
+{
+	padding				:2px;
+	background-color	:#6379AD;
+	font-weight			:bold;
+	color				:#FFFFFF;
+}
+
+div#parecer
+{
+	height		:230px;
+	overflow-y	:auto;
+}
+
+div.resultadoConsultaComScrollBars
+{
+	width		:610px;
+	height		:250px;
+	overflow-x	:auto;
+	overflow-y	:auto;
+}
+
+table#gridPadrao tr.background td
+{
+	background			:#E5EBF8;
+}
+
+table#gridPadraoAba tr.background td
+{
+	background			:#E5EBF8;
+}
+
+table#gridPadraoComScrollbars tr th
+{
+	white-space			:nowrap;
+}
+
+table#gridPadraoComScrollbars tr.background td
+{
+	background			:#E5EBF8;
+}
+
+/* FORMULÁRIO */
+
+table#form
+{
+	width				:100%;
+	font-family			:Arial;
+	font-size			:11px;
+	color				:#414244;
+	margin-bottom		:10px;
+}
+
+table.form
+{
+	width				:100%;
+	font-family			:Arial;
+	font-size			:11px;
+	color				:#414244;
+	margin-bottom		:10px;
+}
+
+/* Estilos da tabela que tem os campos divididos em 2 colunas. */
+
+table.form2colunas tr td {
+	vertical-align		:top;
+	padding				:0px;
+}
+
+table.form2colunas tr td table {
+	font-family			:Arial;
+	font-size			:11px;
+	color				:#414244;
+	margin-bottom		:10px;
+}
+
+table.form2colunas tr td table tr {
+	background-color	:#F7F7F7;	
+}
+
+table.form2colunas tr td table tr td {
+	padding				:2px;
+}
+
+table#formAba
+{
+	width				:584px;
+	font-family			:Arial;
+	font-size			:11px;
+	color				:#414244;
+	margin-bottom		:10px;
+}
+
+tr#form
+{
+	background-color	:#F7F7F7;	
+}
+
+tr.form
+{
+	background-color	:#F7F7F7;	
+}
+
+th#form
+{
+	padding				:2px;
+	background-color	:#B9C5E1;
+	font-weight			:bold;
+	text-align			:center;
+	color				:#314E94;
+}
+
+td#form
+{
+	padding				:2px;
+}
+
+input#form
+{
+
+	border              :none;
+	background-color	:#F7F7F7;	
+}	
+
+.linhaTotalizadora
+{
+	background-color	:#6D8BCF;
+	font-family			:Arial;
+	font-weight			:bold;
+	font-size			:11px;
+	text-align			:left;
+	color				:#FFFFFF;
+	white-space			:nowrap;
+}
+

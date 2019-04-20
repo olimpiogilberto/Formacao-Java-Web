@@ -1,0 +1,102 @@
+html {width:100%;}
+body {
+	background:#fff none;
+	color:#000;
+	font-size:11pt !important;
+	line-height:125%;
+	border:0;
+	border-top:0;
+	margin:0;
+	padding:0; 
+	font-family:"Times New Roman", Times, serif;
+	width:98%;
+  	 }
+#wrapper	{
+	width:98%;
+	border:0;
+	padding:0;
+	margin:12pt auto auto;
+	background:#fff;
+	background-image:none;
+	color:#000;
+	}
+#content {
+	width:auto;
+   	margin:0;
+   	padding:0;
+   	text-align:left;
+	border:0;
+   	color:#000;
+   	background:#fff none;
+   	
+	}
+#content p {
+	margin:11pt 0;
+	}
+#content h1 {
+	text-align:center;
+	border-bottom:2px solid;
+	padding-bottom:5pt;
+	}
+#content h1 br {display:none;}
+
+#header img, #nav, #link, ul#segundoNivel, ul#terceiroNivel, #menu {display:none !important;}	
+
+#header h1 span, #header h2 span {
+	display:block;
+	font-size:8pt;
+	line-height:0.1em;
+	text-align:right;
+	margin:0;
+	padding:0;
+	color:#f00;
+	}
+a:link, a:visited {
+   color:#520;
+   background:transparent none;
+   font-weight:bold;
+   text-decoration:underline;
+   }
+#content a:link:after, #content a:visited:after {
+   	content:" (" attr(href)")";
+   	font-size:10pt;
+	text-decoration:none; 
+	}
+/* CSS-3 seletor -  see Eric Meyer, http:www:alistapart:com:articles:goingtoprint */
+#content a[href^="/"]:after {
+   	content:" (http://www.caixa.gov.br"attr(href)")";
+	} 
+#content a[href^="#"]:after {
+   	content:"";
+	}
+abbr, acronym {border:none;}  	 	
+
+#tituloFuncionalidadePopup
+{
+	height		:30px;
+	font-family	:Arial;
+	font-size	:18px;
+	font-weight	:bold;
+	color		:#FF9933;
+}
+
+#subtituloFuncionalidadePopup
+{
+	padding			:2px;
+	height			:18px;
+	font-family		:Arial;
+	font-size		:14px;
+	font-weight		:bold;
+	color			:#314D94;
+	margin-bottom	:5px;
+}
+
+#dataHora
+{	
+	width		:150px;
+	height		:11px;
+	float		:right;
+	font-family	:Arial;
+	font-size	:12px;
+}
+

@@ -1,0 +1,99 @@
+/* GERAL */
+
+body
+{
+	background-color			:#FFFFFF;
+	margin						:0;
+    scrollbar-highlight-color	:#e9e9e9;
+    scrollbar-shadow-color		:#999999;
+    scrollbar-3dlight-color		:#cccccc;
+    scrollbar-arrow-color		:#808080;
+    scrollbar-track-color		:#e9e9e9;
+    scrollbar-base-color		:#e9e9e9;
+}
+
+/* TEMPLATE LOGIN */
+
+.barraCinza
+{
+	margin			: 0px;
+	background		: #FFFFFF;
+	text-align		: right;
+	vertical-align	: top;
+	width			: 795px; 
+}
+
+.divBarraCinza
+{
+	margin		:0px;
+	position	:absolute; 
+	width		:600px; 
+	height		:32px; 
+	z-index		:1; 
+	left		:180px; 
+	top			:2px; 
+	text-align	:right;
+}
+
+#areaLogin
+{
+	margin	:50px 0px 0px 0px;
+	width	:770px;
+}
+
+#infoSistema
+{	
+	width		:475px;
+	text-align	:right;
+	padding		:5px 5px 5px 5px;
+	float		:right;
+	background	:url(../imagens/xCaixaLogin.gif) no-repeat #EFEFEF;
+}
+
+#formLogin
+{	
+	width		:400px;
+	background	:#F7F7F7;
+	text-align	:right;
+	padding		:5px 5px 5px 5px;
+	float		:right;
+	font-family	:Arial;
+	font-size	:11px;
+	font-weight	:bold;
+	color		:#314E94;
+}
+
+#siglaSistema
+{
+	margin		:0;
+	font-family	:Arial;
+	font-size	:22px;
+	font-weight	:bold;
+	color		:#FF9933;
+}
+
+#descricaoSistema
+{
+	margin		:0;
+	font-family	:Arial;
+	font-size	:14px;
+	font-weight	:bold;
+	color		:#808080;
+}
+
+#versao
+{	
+	width		:400px;
+	padding		:5px 5px 5px 5px;
+	float		:right;
+	text-align	:right;
+}
+
+.controleVersao {
+	width		:400px;
+	font-family	:Verdana;
+	font-size	:9px;
+	text-align	:right;
+	color		:#314E94;
+}
+

@@ -1,0 +1,188 @@
+/* Hack para que o menu funcione no IE */
+* html ul#menu-vertical li {
+	float: left;
+}
+* html ul#menu-vertical li a {
+	height: 1%;
+}
+
+/* Formatação do menu principal */			
+ul#menu-vertical {
+	font-family	: verdana;
+	font-weight	: bold;
+	background	: none;
+	margin		: 0px;
+	padding		: 0px;
+	list-style	: none;
+	width		: 150px;
+}
+
+ul#menu-vertical li {
+	position			: relative;
+	padding-left		: 15px;
+	background-image	: url("../imagens/menuBotaoOff.gif");
+	background-repeat	: no-repeat;
+}
+
+ul#menu-vertical li a {
+	font-family		: verdana;
+	font-weight		: bold;
+	font-size		: 10px;
+	display			: block;
+	text-decoration	: none;
+	color			: black;
+	padding			: 6px;
+}
+
+/* Fim da formatação do menu principal */
+
+/* Formatação dos submenus */
+ul#submenu-vertical {
+	font-family		: arial;
+	font-size		: 10px;
+	font-weight		: normal;
+	background		: none;
+	margin			: 0px;
+	padding-bottom	: 50px;
+	padding-top		: 30px;
+	padding-right	: 30px;
+	padding-left	: 0px;
+	list-style		: none;
+}
+
+ul#submenu-vertical li {
+	position			: relative;
+	padding				: 0px;
+	background-image	: none;
+	background			: #F5F5F5;
+	width				: 150px;
+	border-style		: solid;
+	border-width		: 2px;
+	border-color		: #E0E0E0;
+}
+
+ul#submenu-vertical li a {
+	padding				: 3px;	
+	font-weight			: normal;
+}
+/* Fim da formatação dos submenus */
+
+/* Tratamento dos eventos */
+
+/*
+ * Evento que ocorre quando o mouse é posicionado sobre o menu 
+ * principal, altere essa regra para modificar a formatação no 
+ * evento do onmouseover. 
+ * Isto serve para as duas regras abaixo.
+ */
+ul#menu-vertical li:hover,
+ul#menu-vertical li.over {
+	position			: relative;
+	padding-left		: 15px;
+	background-image	: url("../imagens/menuBotaoOn.gif");
+	background-repeat	: no-repeat;
+}
+
+ul#menu-vertical li a:hover {
+	color				: #000099;
+}
+
+/*
+ * Evento que ocorre quando o mouse é posicionado sobre um item 
+ * dos submenus, altere essa regra para modificar a formatação no 
+ * evento do onmouseover. 
+ */
+ul#submenu-vertical li:hover,
+ul#submenu-vertical li.over {
+	position			: relative;
+	padding-left		: 0px;
+	background-image	: none;
+	background			: #D0D0D0;
+	width				: 150px;
+	border-style		: solid;
+	border-width		: 2px;
+	background-image	: none;
+}
+
+ul#submenu-vertical li a:hover {
+	color				: #000099;
+	background-color	: #D0D0D0;
+}
+
+/* Evento que posiciona o submenu no local correto */
+/* posicionamento do primeiro submenu, ele tem um posicionamento diferente
+ * porque o menu principal tem uma largura diferente dos submenus*/
+ul#menu-vertical ul {
+	position	: absolute;
+	top			: -30px;
+	left		: 150px;
+	z-index		: 400;
+	display		: none;
+}
+
+ul#menu-vertical ul ul,
+ul#menu-vertical ul ul ul,
+ul#menu-vertical ul ul ul ul,
+ul#menu-vertical ul ul ul ul ul{
+	position	: absolute;
+	top			: -30px;
+	left		: 148px;
+	z-index		: 400;
+	display		: none;
+}
+
+iframe#menu-iframe {
+	display: none;
+}
+
+ul#menu-vertical iframe {
+	position	: absolute;
+	top			: -30px;
+	left		: 150px;
+	z-index		: 300;
+	width		: 151px;
+	opacity 	: 0;
+	filter 		: alpha(opacity=0);
+}
+
+ul#submenu-vertical iframe {
+	position	: absolute;
+	top			: -30px;
+	left		: 148px;
+	z-index		: 300;
+	width		: 151px;
+	opacity 	: 0;
+	filter 		: alpha(opacity=0);
+}
+
+ul#menu-vertical li:hover ul ul,
+ul#menu-vertical li:hover ul ul ul,
+ul#menu-vertical li:hover ul ul ul ul,
+ul#menu-vertical li:hover ul ul ul ul ul,
+ul#menu-vertical li:hover ul ul ul ul ul ul,
+ul#menu-vertical li:hover ul ul ul ul ul ul ul,
+ul#menu-vertical li.over ul ul,
+ul#menu-vertical li.over ul ul ul,
+ul#menu-vertical li.over ul ul ul ul,
+ul#menu-vertical li.over ul ul ul ul ul,
+ul#menu-vertical li.over ul ul ul ul ul ul,
+ul#menu-vertical li.over ul ul ul ul ul ul ul {
+	display: none;
+} 
+
+ul#menu-vertical li:hover ul,
+ul#menu-vertical li li:hover ul,
+ul#menu-vertical li li li:hover ul,
+ul#menu-vertical li li li li:hover ul,
+ul#menu-vertical li li li li li:hover ul,
+ul#menu-vertical li li li li li li:hover ul,
+ul#menu-vertical li.over ul,
+ul#menu-vertical li li.over ul,
+ul#menu-vertical li li li.over ul,
+ul#menu-vertical li li li li.over ul,
+ul#menu-vertical li li li li li.over ul,
+ul#menu-vertical li li li li li li.over ul {
+	display: block; 
+} 
+
+/* Fim do tratamento dos eventos */

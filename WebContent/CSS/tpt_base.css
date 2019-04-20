@@ -1,0 +1,121 @@
+/* GERAL */
+
+body
+{
+	background-color			:#FFFFFF;
+	margin						:0;
+    scrollbar-highlight-color	:#e9e9e9;
+    scrollbar-shadow-color		:#999999;
+    scrollbar-3dlight-color		:#cccccc;
+    scrollbar-arrow-color		:#808080;
+    scrollbar-track-color		:#e9e9e9;
+    scrollbar-base-color		:#e9e9e9;
+}
+
+bodyRelatorio
+{
+	background-color			:#FFFFFF;
+	margin						:0;
+}
+
+/* TEMPLATE BASE */
+
+#areaUtil
+{
+	margin	:10px 0px 0px 0px;
+	width	:770px;
+}
+
+.arrowMigalha {
+	font-family: Arial;
+	font-size: 12px;
+	color: #007AC1;
+	text-decoration: none;
+}
+
+#menu
+{
+	width		:150px;
+	float		:left;
+	padding		:0;
+	text-align	:left;
+}
+
+#jsp
+{
+	width		:610;
+	float		:right;
+	padding		:0;
+}
+
+#tituloFuncionalidade
+{
+	height		:30px;
+	font-family	:Arial;
+	font-size	:18px;
+	font-weight	:bold;
+	color		:#FF9933;
+	background	:url("../imagens/fundo_tituloCasoDeUso.gif") no-repeat bottom left;
+}
+
+#subtituloFuncionalidade
+{
+	padding			:2px;
+	height			:18px;
+	font-family		:Arial;
+	font-size		:14px;
+	font-weight		:bold;
+	color			:#314D94;
+	border-bottom	:#CCCCCC 1px solid;
+	margin-bottom	:5px;
+	margin-top		:0px;
+}
+
+#subtituloAgrupador
+{
+	padding			:2px;
+	height			:12px;
+	font-family		:Arial;
+	font-size		:12px;
+	font-weight		:bold;
+	color			:#314D94;
+	border-bottom	:#CCCCCC 1px solid;
+	margin-bottom	:5px;
+}
+
+#subtitulo
+{
+	padding			:2px;
+	height			:18px;
+	font-family		:Arial;
+	font-size		:16px;
+	font-weight		:bold;
+	color			:#314D94;
+	margin-bottom	:5px;
+}
+
+#botaoVoltar
+{	
+	width		:43px;
+	height		:11px;
+	float		:right;
+}
+
+#botoesOperacao
+{	
+	padding			:2px;
+	text-align		:right;
+	margin-bottom	:10px;
+}
+
+#paginacao
+{	
+	padding			:2px;
+	width			:610px;
+	text-align		:center;
+	color			:#414244;
+	font-size		:11px;
+	margin-bottom	:10px;
+}
+
+

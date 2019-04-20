@@ -1,0 +1,145 @@
+/*******************************************************************************
+ * Autor: Adriano Pamplona
+ * Data de criação: 31/08/2007
+ * Versão: 1.0.0
+ *******************************************************************************
+ * Objetivo: 
+ *		Formatação do painel de paginação
+ *******************************************************************************
+ * Dependências: 
+ *		nenhuma
+ *******************************************************************************
+ * regras definidas
+ * 		a#paginador-link 					=> formação de link habilitado
+ * 		font#paginador-link-desabilitado 	=> formatação de link desabilitado
+ * 		a#paginador-link-pagina 			=> formatação do link de página
+ * 		font#paginador-link-pagina-atual 	=> formatação do link de página atual exibida na lista de páginas
+ * 		font#painel-pagina-atual 			=> formatação de página atual
+ * 		font#painel-quantidade-de-paginas 	=> formatação de quantidade de páginas
+ *******************************************************************************
+ */
+ 
+/*******************************************************************************
+Formatação do link de habilitado */
+a#paginador-link:link {
+	font-weight: normal;
+	font-size: 11px;
+	color: #414244;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+a#paginador-link:visited {
+	font-weight: normal;
+	font-size: 11px;
+	color: #414244;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+a#paginador-link:hover {
+	font-weight: normal;
+	font-size: 11px;
+	color: #ff6d00;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: underline;
+}
+a#paginador-link:active {
+	font-weight: normal;
+	font-size: 11px;
+	color: #414244;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+/* Fim da Formatação do link de habilitado */
+
+/*******************************************************************************
+Formatação do link desabilitado */
+font#paginador-link-desabilitado {
+	font-family			: arial;
+	font-size			: 11px;
+	font-weight			: normal;
+	color				: #A0A0A0;
+	text-decoration		: none;
+}
+/* Fim da Formatação do link desabilitado */
+
+/*******************************************************************************
+Formatação dos links das páginas */
+a#paginador-link-pagina:link {
+	font-family			: arial;
+	font-size			: 11px;
+	font-weight			: normal;
+	color				: #414244;
+	text-decoration		: none;
+}
+a#paginador-link-pagina:visited {
+	font-family			: arial;
+	font-size			: 11px;
+	font-weight			: normal;
+	color				: #414244;
+	text-decoration		: none;
+}
+a#paginador-link-pagina:hover {
+	font-family			: arial;
+	font-size			: 11px;
+	font-weight			: normal;
+	color				: #ff6d00;
+	background-color	: #FFFFFF;
+	text-decoration		: none;
+}
+a#paginador-link-pagina:active {
+	font-family			: arial;
+	font-size			: 11px;
+	font-weight			: normal;
+	color				: #414244;
+	text-decoration		: none;
+}
+/* Fim da Formatação dos links das páginas */
+
+/*******************************************************************************
+Formatação da página atual exibida na lista de páginas */
+font#paginador-link-pagina-atual {
+	font-weight: bold;
+	font-size: 11px;
+	color: #ff6d00;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+/* Fim da Formatação da página atual exibida na lista de páginas */
+
+/*******************************************************************************
+Formatação da página atual */
+font#painel-pagina-atual {
+	font-weight: bold;
+	font-size: 11px;
+	color: #ff6d00;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+/* Fim da Formatação da página atual */
+
+/*******************************************************************************
+Formatação da quantidade de páginas */
+font#painel-quantidade-de-paginas {
+	font-weight: bold;
+	font-size: 11px;
+	color: #ff6d00;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}
+/* Fim da Formatação da quantidade de páginas */
+
+font#separador {
+	font-weight: bold;
+	font-size: 11px;
+	color: #414244;
+	font-style: normal;
+	font-family: arial;
+	text-decoration: none;
+}

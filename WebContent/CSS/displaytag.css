@@ -1,0 +1,123 @@
+@CHARSET "ISO-8859-1";
+
+/*
+ * Table
+ */
+displayTagStandardFont,table.displayTagGridPadrao,div.displayTagExportLinks,span.displayTagEmptyMessage,span.displayTagPageBanner,span.displayTagPageLinks
+{
+	font-family			:Arial;
+	font-size			:11px;
+}
+
+table.displayTagGridPadrao
+{
+	color				:#414244;
+	margin-bottom		:5px;
+	width				:610px;
+}
+
+table.displayTagGridPadrao tr th a:link,table.displayTagGridPadrao tr th a:visited
+{
+	color				:#FFFFFF;
+	font-weight			:bold;
+}
+
+table.displayTagGridPadrao tr.displayTagOdd td
+{
+	background			:#E5EBF8;
+}
+
+/*
+ *	Display Tag
+ */
+div.displayTagCenteredBlock
+{
+	margin-left			:auto;
+	margin-right		:auto;
+	text-align			:center;
+	width				:100%;
+}
+
+div.displayTagExportLinks
+{
+	background			:#E5EBF8;
+	margin-bottom		:0.4em;
+	margin-left			:auto;
+	margin-right		:auto;
+	margin-top			:0.4em;
+	padding				:0.4em;
+	text-align			:left;
+	width				:98%;
+}
+
+span.displayTagEmptyMessage
+{
+	font-size			:13px;
+}
+
+span.displayTagPageBanner,span.displayTagPageLinks
+{
+	padding				:4px;
+	width				:100%;
+}
+
+span.displayTagPageLinkSelected
+{
+	color				:#FF0000;
+}
+
+th.displayTagSorted a,th.displayTagSortable a
+{
+	background-position	:right;
+	background-repeat	:no-repeat;
+	padding-right		:0.9em;
+	width				:100%;
+}
+
+th.displayTagSortable a
+{
+	background-image	:url(../imagens/ico_arrow_switch_off.png);
+}
+
+th.displayTagOrderAscending a
+{
+	background-image	:url(../imagens/ico_arrow_switch_down.png);
+}
+
+th.displayTagOrderDescending a
+{
+	background-image	:url(../imagens/ico_arrow_switch_up.png);
+}
+
+span.displayTagExportLinksCSV,span.displayTagExportLinksExcel,span.displayTagExportLinksPDF,span.displayTagExportLinksRTF,span.displayTagExportLinksXML
+{
+	background-position	:right;
+	background-repeat	:no-repeat;
+	margin-right		:0.4em;	
+	padding-right	 	:1.7em;
+}
+
+span.displayTagExportLinksCSV
+{
+	background-image	:url(../imagens/ico_file_csv.png);
+}
+
+span.displayTagExportLinksExcel
+{
+	background-image	:url(../imagens/ico_file_excel.png);
+}
+
+span.displayTagExportLinksPDF
+{
+	background-image	:url(../imagens/ico_file_pdf.png);
+}
+
+span.displayTagExportLinksRTF
+{
+	background-image	:url(../imagens/ico_file_rtf.png);
+}
+
+span.displayTagExportLinksXML
+{
+	background-image	:url(../imagens/ico_file_xml.png);
+}
