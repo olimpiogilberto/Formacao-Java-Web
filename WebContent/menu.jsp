@@ -71,7 +71,7 @@ body {background-color: #c1c1c1;}
 							<a href="Cadastro_Professor.jsp">Cadastrar Professor</a>
 						</p>
 						<p align="justify">
-							<a href="gerenciaUsuario.jsp">Cadastrar Usuario</a>
+							<a href="Cadastro_Usuario.jsp">Cadastrar Usuário</a>
 						</p>
 						<p align="justify">
 							<a href="logout.jsp">Sair</a>

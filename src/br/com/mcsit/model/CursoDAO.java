@@ -35,7 +35,8 @@ public class CursoDAO {
 		return lista;
 		
 		}catch(SQLException erro){
-			System.out.println("SQLCODE : " + erro.getErrorCode()
+			System.out.println(this.getClass()
+					+"\nSQLCODE : " + erro.getErrorCode()
 					+"\nERRO: " +erro
 					+"\nESTADO: " +erro.getSQLState()
 					+"\nMENSAGEM: " +erro.getMessage());

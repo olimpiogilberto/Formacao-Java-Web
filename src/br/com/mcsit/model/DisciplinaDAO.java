@@ -35,7 +35,9 @@ public class DisciplinaDAO {
 		return lista;
 		
 		}catch (SQLException erro){
-			System.out.println("Erro método listAll: " + erro);
+			System.out.println(this.getClass() + ".listAll: " + "\nSQLCODE : "
+					+ erro.getErrorCode() + "\nERRO: " + erro + "\nESTADO: "
+					+ erro.getSQLState() + "\nMENSAGEM: " + erro.getMessage());
 			return null;
 		}
 		
@@ -62,7 +64,9 @@ public List<Disciplina> listAll(int curso){
 		return lista;
 		
 		}catch (SQLException erro){
-			System.out.println("Erro método listByCourse: " + erro);
+			System.out.println(this.getClass() + ".listAllByCourse: " + "\nSQLCODE : "
+					+ erro.getErrorCode() + "\nERRO: " + erro + "\nESTADO: "
+					+ erro.getSQLState() + "\nMENSAGEM: " + erro.getMessage());
 			return null;
 		}
 		

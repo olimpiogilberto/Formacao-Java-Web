@@ -13,7 +13,7 @@ public class FabricaConexao {
 			Class.forName(driver);
 			
 			//Abre a conexao junto ao banco de dados
-			return DriverManager.getConnection(url, "root", "admin");
+			return DriverManager.getConnection(url, "root", "");
 		}
 		catch(ClassNotFoundException erro){
 			System.out.println("Erro ao abrir a conexao" + erro);

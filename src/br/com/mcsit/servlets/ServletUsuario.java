@@ -19,16 +19,15 @@ public class ServletUsuario extends HttpServlet {
 		
 		String mensagem = null;
 		RequestDispatcher rd = null;
-		
-		
+				
 	try{	
 		
 	Usuario usuario = new Usuario();
-		
+			
 	usuario.setLogin(request.getParameter("txtLogin"));
 	usuario.setSenha(request.getParameter("txtSenha"));
 	
-	
+ 
 	LoginDAO dao = new LoginDAO();
 	
 	usuario = dao.login(usuario);
