@@ -44,25 +44,34 @@ public class AlunoDAO {
 	public boolean alterar(Aluno dados) {
 
 		try {
-			String sql = "UPDATE TBAluno SET Nome = ?, CPF = ?, "
-					+ "curso = ?, CEP = ?, Rua = ?, Bairro = ?"
+			String sql = "UPDATE TBAluno SET CPF = ?, " 
+					+ "Nome = ?,"
+					+ "curso = ?, "
+					
+					+ "Rua = ?,"
+					+ "Numero = ?,"
+					+ " CEP = ?,  "
+					+ "Bairro = ?"
 					+ "WHERE RA = ?";
 
 			PreparedStatement stm = conexao.prepareStatement(sql);
-			stm.setLong(7, dados.getRa());
-			stm.setString(1, dados.getNome());
-			stm.setLong(2, dados.getCpf());
+			
+			stm.setLong(1, dados.getCpf());
+			stm.setString(2, dados.getNome());
 			stm.setString(3, dados.getCurso());
-			stm.setLong(4, dados.getEndereco().getCep());
-			stm.setString(5, dados.getEndereco().getRua());
-			stm.setString(6, dados.getEndereco().getBairro());
+			stm.setString(4, dados.getEndereco().getRua());
+			stm.setLong(5, dados.getEndereco().getNumero());
+			stm.setLong(6, dados.getEndereco().getCep());
+			stm.setString(7, dados.getEndereco().getBairro());
+			
+			stm.setLong(8, dados.getRa());
 
 			boolean erro = stm.execute();
 
 			return !erro;
 
 		} catch (SQLException erro) {
-			System.out.println(this.getClass() + "SQLCODE : "
+			System.out.println(this.getClass() + "\nSQLCODE : "
 					+ erro.getErrorCode() + "\nERRO: " + erro + "\nESTADO: "
 					+ erro.getSQLState() + "\nMENSAGEM: " + erro.getMessage());
 			return false;
@@ -106,6 +115,7 @@ public class AlunoDAO {
 				dados.setCurso(resultado.getString("CURSO"));
 				dados.getEndereco().setCep(resultado.getLong("CEP"));
 				dados.getEndereco().setRua(resultado.getString("Rua"));
+				dados.getEndereco().setNumero(resultado.getInt("Numero"));
 				dados.getEndereco().setBairro(resultado.getString("Bairro"));
 
 				return dados;

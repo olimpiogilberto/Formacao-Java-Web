@@ -67,8 +67,8 @@ function consultaCPF(cpf){
 	 
 		<form name="Form1" method="post" action="cadastroAluno">
 		
-		<p align="justify">RA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="text" name="txtRA">
-		CPF : <input type="text" name="txtCpf" id="txtCpf"></p>
+		<p align="justify">RA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="text" name="txtRA" maxlength="8">
+		CPF : <input type="text" name="txtCpf" id="txtCpf" maxlength="11"></p>
 		
 		<p align="justify">NOME: <input type="text" name="txtNome" size="32"></p>
 		<p align="justify">

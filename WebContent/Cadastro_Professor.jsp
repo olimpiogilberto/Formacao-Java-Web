@@ -21,8 +21,22 @@ String msg  = (String)request.getAttribute("msg");
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Cadastro de Professores</title>
-
+<!-- Estilos -->
+<link href='CSS/formularios.css' 	rel="stylesheet" type="text/css"/>
+<link href='CSS/displaytag.css' 	rel="stylesheet" type="text/css"/>
+<link href='CSS/hipertexto.css' 	rel="stylesheet" type="text/css"/>
+<link href='CSS/impressao.css' 		rel="stylesheet" type="text/css"/>
+<link href='CSS/menu.css' 			rel="stylesheet" type="text/css"/>
+<link href='CSS/paginador.css' 		rel="stylesheet" type="text/css"/>
+<link href='CSS/tpt_base.css' 		rel="stylesheet" type="text/css"/>
+<link href='CSS/tabelas.css' 		rel="stylesheet" type="text/css"/>
+<link href='CSS/"tpt_base.css' 		rel="stylesheet" type="text/css">
+<!-- Estilos/ -->
 <script type="text/javascript">
+function goBack() {
+	  window.history.back();
+	}
+
 function setFormulario(opcao){
 		document.Form1.operacao.value = opcao;
 		document.Form1.submit();
@@ -36,6 +50,7 @@ function consultaCPF(cpf){
 
 </head>
 <body>
+<p align="right"><button onclick="goBack()">Voltar</button>	</p> 
 	<center>
 	<font face="Verdana, arial">
 	<table>
