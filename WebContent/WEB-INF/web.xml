@@ -18,18 +18,19 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
     <servlet-name>cadastroAluno</servlet-name>
     <servlet-class>br.com.mcsit.servlets.ServletAluno</servlet-class>
   </servlet>
-  <servlet-mapping>
-    <servlet-name>cadastroAluno</servlet-name>
-    <url-pattern>/cadastroAluno</url-pattern>
-  </servlet-mapping>
-  <servlet>
+    <servlet>
     <servlet-name>cadastroProfessor</servlet-name>
     <servlet-class>br.com.mcsit.servlets.ServletProfessor</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>cadastroUsuario</servlet-name>
+    <servlet-class>br.com.mcsit.servlets.ServletUsuario</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>cadastroProfessor</servlet-name>
     <url-pattern>/cadastroProfessor</url-pattern>
   </servlet-mapping> 
+
   <servlet>
     <servlet-name>login</servlet-name>
     <servlet-class>br.com.mcsit.servlets.ServletUsuario</servlet-class>
